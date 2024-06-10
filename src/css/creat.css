@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    height: 94vh;
+    background-color: #FFC107;
+    padding: 20px;
+    display: flex;
+    border-radius: 31px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #fff;
+    color: #000000;
+    
+}
+
+.input-group {
+    width: 100%;
+    height: 100px;
+}
+
+.inputs__group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px 160px;
+}
+
+.inputs__group input {
+    width: 400px;
+}
+#post-image {
+    margin-left: -165px;
+}
+
+.label__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px 500px;
+}
+
+.label-1 {
+    margin-left: -530px;
+}
+.create-post-btn {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sign-out-btn {
+    margin-top: 400px;
+    background: #FFC107;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+}
+
+.logo__text {
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+}
+
+h1 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 15%;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #FFC107;
+    border: none;
+    cursor: pointer;
+    margin-left: 500px;
+}

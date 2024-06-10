@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="./css/creat.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo__text">Dashboard</div>
+            <div class="user-info">
+                <p>Ibrokhim Jalalov</p>
+                <p>Author</p>
+            </div>
+            <button class="create-post-btn">Create Post</button>
+            <button class="sign-out-btn">Sign Out?</button>
+        </div>
+        <div class="main-content">
+            <h1>Create New Post</h1>
+            <form id="post-form">
+                    <label for="post-title">Post title</label>
+                    <input type="text" id="post-title" name="post-title" required>
+
+                <div class="input-group">
+                    <div class="label__group">
+                    <label class="label-1" for="post-image">Post image</label>
+                    <label for="post-tag">Post tag</label>
+                    </div>
+                    <div class="inputs__group">
+                        <input type="url" id="post-image" name="post-image">
+                        <input type="text" id="post-tag" name="post-tag">
+                    </div>
+                </div>
+    
+                    <label for="post-description">Post description</label>
+                    <textarea id="post-description" name="post-description" rows="10" required></textarea>
+
+                <button type="submit" class="submit-btn">Create Post</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/creat.js"></script>
+</body>
+</html>
